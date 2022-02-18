@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'CocoSharp';
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5% 10%;
+    background-color: #EEF2F3;
+}
+
+.form {
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-bottom: 80px;
+    font-size: 36px;
+    line-height: 43px;
+    color: red;
+}
+
+.h1_2 {
+    margin-bottom: 90px;
+}
+
+input {
+    width: 580px;
+    padding: 15px 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 130px;
+    background-color: #fff;
+}
+
+.inputName {
+    margin-bottom: 70px;
+}
+
+.inputCard {
+    width: 325px;
+    margin-bottom: 30px;
+}
+
+.inputBox {
+    min-width: 325px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputPeriod,
+.inputCVV {
+    width: 138px;
+}
+
+.btnNext {
+    position: absolute;
+    right: 15%;
+    bottom: 10%;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 130px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: rgba(69, 103, 142, 0.8);
+    cursor: pointer;
+}
